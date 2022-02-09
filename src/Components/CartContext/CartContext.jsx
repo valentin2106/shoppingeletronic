@@ -39,20 +39,22 @@ export const CartProvider = ({ children }) => {
           return newCart
       })
   } 
-  const change = (productId) => {
+  const changeQuantity = (productId, newQuantity) => {
     setCart(old =>{
         const newCart = {}
         Object.keys(old).forEach(id =>{
-            if(id !== productId){
-                newCart[id] = old[id]
+            const newProduct = {...old[id]}
+            if(id === productId){
+               newProduct.quantity = newQuantity
             }
+            newCart[id] = newProduct
         })
         window.localStorage.setItem('cart', JSON.stringify(newCart))
         return newCart
     })
 } 
   return (
-    <CartContext.Provider value={{ cart, addToCart, removeCart }}>
+    <CartContext.Provider value={{ cart, addToCart, removeCart, changeQuantity }}>
       {children}
     </CartContext.Provider>
   );

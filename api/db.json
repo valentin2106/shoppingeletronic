@@ -4,69 +4,72 @@
             "id":1,
             "name":"Notebook",
             "description": "Notebook Dell",
-            "price": "R$ 1999,999",
+            "price": "1999.00",
             "image":"https://shopfacil.vtexassets.com/arquivos/ids/89516278-800-auto?v=637688549903170000&width=800&height=auto&aspect=true"
         },
         {
             "id":2,
             "name":"Celular Sansung",
             "description": "Celular 32Gb",
-            "price": "R$ 1.999,99",
+            "price": 1999.00,
             "image":"https://shopfacil.vtexassets.com/arquivos/ids/93000028-800-auto?v=637793833165600000&width=800&height=auto&aspect=true"
         },
         {
             "id":3,
             "name":"TV Smart TV LG 65UN7310PSC 65 LED 4K",
             "description": "Tecnologia: Smart TV LED Resolução: 4K UHDTamanho da Tela: 65",
-            "price": "R$ 5.829,00",
+            "price": 5829.00,
             "image":"https://shopfacil.vtexassets.com/arquivos/ids/92186197-800-auto?v=637789846262000000&width=800&height=auto&aspect=true"
         },
         {
             "id":4,
             "name":"Lavadora de Roupas Electrolux LAC12 12 kg Branco",
-            "description": "Esta é a lavadora LAC12 da Electrolux que vai facilitar o seu dia a dia. Possui capacidade de 12 kg e vem com o filtro que retém os fiapos desagradáveis que podem ficar nas roupas após a lavagem. Com o dispenser Multibox, é possível colocar todos os produtos que você precisa para deixar suas roupas limpas e macias em um único compartimento, facilitando o processo. Possui 12 programas de lavagem especialmente desenvolvidos para lavar adequadamente todos os tipos de roupas e sujeiras além de programas especiais para lavagem de tênis e edredons. Ela é a Lavadora Automática Topload 12 kg mais compacta do mercado, assim você não vai precisar se preocupar com espaço.",
-            "price": "R$ 1.899,05",
+            "description": "Esta é a lavadora LAC12 da Electrolux que vai facilitar o seu dia a dia. ",
+            "price": 1899.99,
             "image":"https://shopfacil.vtexassets.com/arquivos/ids/74120809-800-auto?v=637467291574500000&width=800&height=auto&aspect=true"
         },
         {
             "id":5,
             "name":"Refrigerador Samsung RF22R7351SR 501 L Inox",
             "description": "Samsung com Preços baixos? É na Casas Bahia! Compre Samsung em promoção e muitas outras marcas com descontos incríveis. Confira",
-            "price": "R$ 18.099,00",
+            "price": 1809.00,
             "image":"https://shopfacil.vtexassets.com/arquivos/ids/76534315-800-auto?v=637500088116600000&width=800&height=auto&aspect=true"
         },
         {
             "id":6,
             "name":"Lava e Seca LG CV5011TS4 11 kg Aço Escovado",
             "description": "A LG criou a Lava e Seca Vivace VC4, para colocar um ponto final em seus problemas domésticos",
-            "price": "R$ 3.959,91"
+            "price": 3959.00,
+            "image":"https://shopfacil.vtexassets.com/arquivos/ids/90794216-800-auto?v=637729767003900000&width=800&height=auto&aspect=true"
+
         },
         {
             "id":7,
             "name":"Fritadeira Air Fry Britânia Oven BFR2100P 12L - Preta",
             "description": "A Fritadeira Air Fry Britânia Oven BFR2100P é a opção perfeita para quem busca a praticidade de um forno e a agilidade da air fry",
-            "price": "R$ 779,99",
+            "price": 779.99,
             "image":"https://shopfacil.vtexassets.com/arquivos/ids/83835018-800-auto?v=637603889058800000&width=800&height=auto&aspect=true"
         },
         {
             "id":8,
             "name":"Cervejeira Consul CZD12AT 82 L Titanium",
             "description": "Cervejeira Consul CZD12AT 82 L Titanium",
-            "price": "R$ 2.099,99",
+            "price": 2099.00,
             "image":"https://shopfacil.vtexassets.com/arquivos/ids/91005340-800-auto?v=637735945034230000&width=800&height=auto&aspect=true"
         },
         {
             "id":9,
             "name":"Pneu Firestone F600 195 55 15 polegadas 85F 1 Pneu",
             "description": "O Pneu F-600 Firestone foi especialmente desenvolvido para proporcionar maior conforto e segurança em trajetos diários e longas viagens. ",
-            "price": "R$ 353,10",
+            "price": 353.00,
             "image":"https://shopfacil.vtexassets.com/arquivos/ids/91334815-800-auto?v=637762128897300000&width=800&height=auto&aspect=true"
         },
         {
             "id":10,
             "name":"Lâmpada LED Multilaser Bulbo Inteligente SE224 Colorida Dimerizável Wi-Fi 10W",
             "description": "A Lâmpada LED Inteligente Colorida Dimerizável Wi-Fi vai deixar a sua casa totalmente modernizada e conectada!Através do aplicativo Multilase",
-            "price": "R$ 39,90"
+            "price": 39.90,
+            "image":"https://shopfacil.vtexassets.com/arquivos/ids/91359367-800-auto?v=637763638433270000&width=800&height=auto&aspect=true"
         }
 
     ]

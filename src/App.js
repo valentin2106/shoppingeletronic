@@ -1,12 +1,17 @@
+import { CartProvider } from "./Components/CartContext/CartContext";
 import Header from "./Components/Header";
 import Products from "./Components/Products";
+import MyRoutes from "./routes";
 
 function App() {
   return (
+   
     <div className="App">
-      <Header />
-      <Products />
+     <CartProvider>
+     <MyRoutes />
+     </CartProvider>
     </div>
+
   );
 }
 
