@@ -1,7 +1,6 @@
 import React from "react";
 import { useCart } from "../CartContext/CartContext";
-import Header from "../Header";
-import { Container } from "./style";
+import { Container, Table } from "./style";
 
 const Cart = () => {
   const cart = useCart();
@@ -17,7 +16,7 @@ const Cart = () => {
   }
   return (
     <Container>
-      <table>
+      <Table>
           <thead>
           <tr>
           <th>Produto</th>
@@ -35,21 +34,21 @@ const Cart = () => {
 <tr>
     <td> {product.name}</td>
     <td>
-    <input type="number" defaultValue={quantity} onBlur={changeQuantity(key)}/>
+    <input type="number" defaultValue={quantity} onClick={changeQuantity(key)}/>
     </td>
     <td>R$ {product.price}</td>
     <td>R$ {product.price * quantity}</td>
     <td> <button onClick={removerItem(key)}>Remover item</button></td>
 </tr>
-
-   
-
 </tbody>
-             
           );
         })}
-      </table>
+      </Table>
+      <div>
+      <button>Fechar Pedido</button>
+      </div>
     </Container>
+    
   );
 };
 export default Cart;

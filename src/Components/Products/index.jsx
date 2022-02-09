@@ -50,7 +50,7 @@ const Products = () => {
                 <ContainerDescription>
                   <Description>{product.description}</Description>
                 </ContainerDescription>
-                <PriceProduct>{product.price}</PriceProduct>
+                <PriceProduct>R$ {product.price}</PriceProduct>
                 <ButtonCart onClick={add(product)}>
                   Adicionar ao Carrinho
                 </ButtonCart>

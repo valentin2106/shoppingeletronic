@@ -43,7 +43,6 @@ export const ButtonCart = styled.button`
   justify-content:end;
   width: 50px;
   height:30px;
-  span{
-
-  }
+  cursor:pointer;
+  
 `
